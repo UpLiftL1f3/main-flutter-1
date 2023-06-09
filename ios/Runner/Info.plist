@@ -2,6 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<!-- if you need to authenticate with a backend server -->
+	<!-- <key>SERVER_CLIENT_ID</key>
+	<string>[YOUR SERVER CLIENT ID]</string> -->
+
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+	<string>fbapi</string>
+	<string>fb-messenger-share-api</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb548921070560840</string>
+				<string>com.googleusercontent.apps.659929355010-fngbjd8slqhe4t4m79a8tj2sisnb84jj</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>548921070560840</string>
+	<key>FacebookClientToken</key>
+	<string>11da013f4cff39b83a5cb5766809f5f2</string>
+	<key>FacebookDisplayName</key>
+	<string>Time Sharing</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
